@@ -93,6 +93,10 @@ a:active {
   width: 100%;
 }
 
+.nav_wrapper .logo i {
+  display: none;
+}
+
 .nav_bar .nav_wrapper figure img {
   height: 82px;
   width: 273px;
@@ -561,8 +565,6 @@ b {
 
 @media screen and (min-width: 1200px) {
 }
-@media screen and (min-width: 1200px) {
-}
 
 /* responsive design for 1192px */
 @media screen and (max-width: 1199px) {
@@ -570,6 +572,10 @@ b {
   .nav_bar {
     padding: 3px 0;
     width: 100%;
+  }
+
+  .nav_wrapper .logo i {
+    display: none;
   }
 
   .nav_font_style li a {
@@ -661,6 +667,7 @@ b {
   }
 
   .nav_wrapper .logo i {
+    display: block;
     font-size: 30px;
     color: #000000;
   }
