@@ -127,6 +127,10 @@ a:active {
   color: var(--font-color1);
 }
 
+.nav_font_style li a {
+  color: #2c1434;
+}
+
 .icon a {
   color: #ff8e06;
 }
@@ -912,7 +916,7 @@ b {
 
   /* course */
   .course_wrapper .course_header h2 {
-    font-size: 32px;
+    font-size: 33px;
   }
 
   .course_wrapper .course_header p {
