@@ -894,6 +894,63 @@ b {
     padding-top: 0;
   }
 
+  .banner_wrapper .banner_content h1 {
+    font-size: 33px;
+  }
+
+  .banner_wrapper p {
+    font-size: 23px;
+  }
+
+  .banner_wrapper ul li:nth-child(1) a {
+    font-size: 22px;
+  }
+
+  .banner_wrapper ul li:nth-child(2) a {
+    font-size: 22px;
+  }
+
+  /* course */
+  .course_wrapper .course_header h2 {
+    font-size: 32px;
+  }
+
+  .course_wrapper .course_header p {
+    font-size: 22px;
+  }
+
+  .course_wrapper .course_card .card {
+    width: 100%;
+  }
+
+  .course_wrapper .course_card .card h3 {
+    font-size: 25px;
+  }
+
+  .course_wrapper .course_card .card .card_btn a {
+    font-size: 24px;
+  }
+
+  /* register */
+  .register_wrapper h2 {
+    font-size: 34px;
+  }
+
+  .register_wrapper p {
+    font-size: 22px;
+  }
+
+  .register_wrapper .register_video_btn span {
+    font-size: 23px;
+  }
+
+  .register_wrapper .register_video_btn i {
+    font-size: 23px;
+    padding: 14px 18px;
+    height: 50px;
+    width: 50px;
+  }
+
   /* partner */
   .partners_wrapper {
     gap: 1px;
@@ -910,7 +967,7 @@ b {
 
   .faq_wrapper h2 {
     font-size: 33px;
-    text-align: center;
+    text-align: left;
   }
 
   .faq_wrapper ul li span {
@@ -923,8 +980,16 @@ b {
 
   /* footer */
   .footer_wrapper .box_container .first_box p {
-    font-size: 21px;
+    font-size: 22px;
     text-align: center;
+  }
+
+  .footer_wrapper .box_container .box h2 {
+    font-size: 30px;
+  }
+
+  .footer_wrapper p span {
+    font-size: 23px;
   }
 }
 
@@ -940,21 +1005,17 @@ b {
     background-size: contain;
   }
 
-  .banner_wrapper .banner_content h1 {
-    font-size: 33px;
+  .banner_wrapper p {
+    font-size: 20px;
   }
 
   .banner_wrapper ul li:nth-child(1) a {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .banner_wrapper ul li:nth-child(2) a {
     padding: 10px 28px;
-    font-size: 20px;
-  }
-
-  .banner_wrapper p {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   /* course */
